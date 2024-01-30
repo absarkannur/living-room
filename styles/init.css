@@ -237,13 +237,13 @@ ul{ list-style: none; padding: 0; margin: 0; }
 }
 
 .side_social_icon{
-    position: fixed;
+    position: absolute;
     display: block;
     width: 150px;
     height: 20px;
     top: 0;
     bottom: 0;
-    right: -45px;
+    right: -35px;
     margin: auto;
     transform: rotate(-90deg);
     z-index: 999;

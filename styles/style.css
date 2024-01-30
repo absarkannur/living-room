@@ -34,6 +34,7 @@
 .banner-head-wrapper{
     clear: both;
     text-align: center;
+    position: relative;
 }
 
 .banner-head-wrapper .text{
@@ -314,6 +315,16 @@
 /* Media Queries */
 
 @media ( max-width: 1200px ) {
+
+    .side_social_icon{
+        position: relative;
+        right: initial;
+        top: initial;
+        bottom: initial;
+        transform:none;
+        top: 10px;
+    }
+    
     .inner-page{
         width: 100%;
     }
@@ -387,7 +398,7 @@
     }
 
     .banner-head-wrapper .text{
-        font-size: 12px;
+        font-size: 22px;
     }
 
     .project-reel-wrapper {
