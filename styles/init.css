@@ -236,3 +236,36 @@ ul{ list-style: none; padding: 0; margin: 0; }
     font-size: 65px;
 }
 
+.side_social_icon{
+    position: fixed;
+    display: block;
+    width: 150px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    right: -45px;
+    margin: auto;
+    transform: rotate(-90deg);
+    z-index: 999;
+}
+
+.side_social_icon::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60%;
+    background-color: #f3e600;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.side_social_icon img:nth-child(1){
+    float: left;
+}
+
+.side_social_icon img:nth-child(2){
+    float: right;
+}
